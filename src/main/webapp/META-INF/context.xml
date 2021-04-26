@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		 name ="jdbc/login_project"		 
+		 username = "user_login_project"
+		 password = "rootroot"
+		 url = "jdbc:mysql://localhost:3306/login_project?useSSL=false"
+		
+		 auth = "Container"
+		 type = "javax.sql.DataSource"
+		 driverClassName = "com.mysql.jdbc.Driver"
+		 factor = " org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		 
+		 maxTotal = "100"
+		 maxIdle = "10"
+		 maxWaitMillis = "-1" />
+</Context>
