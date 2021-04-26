@@ -13,6 +13,20 @@ public class Dog {
 
 	public Dog() {}
 
+	public Dog(int id) {
+		this.id = id;
+	}
+
+	public Dog(String kind, int price, String image, String country, int height, int weight, String content) {
+		this.kind = kind;
+		this.price = price;
+		this.image = image;
+		this.country = country;
+		this.height = height;
+		this.weight = weight;
+		this.content = content;		
+	}
+
 	public Dog(int id, String kind, int price, String image, String country, int height, int weight, String content,
 			int readCount) {
 		this.id = id;
