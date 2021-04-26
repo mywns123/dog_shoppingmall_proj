@@ -1,3 +1,4 @@
+<%@page import="dog_shoppingmall_proj.ds.JndiDs"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,5 +9,6 @@
 </head>
 <body>
 Hi~~~
+<%=JndiDs.getConnection() %>
 </body>
 </html>

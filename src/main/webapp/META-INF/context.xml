@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
 	<Resource
-		 name ="jdbc/login_project"		 
-		 username = "user_login_project"
+		 name ="jdbc/dog_shoppingmall_proj"		 
+		 username = "user_shoppingmall"
 		 password = "rootroot"
-		 url = "jdbc:mysql://localhost:3306/login_project?useSSL=false"
+		 url = "jdbc:mysql://localhost:3306/shoppingmall?useSSL=false"
 		
 		 auth = "Container"
 		 type = "javax.sql.DataSource"
 		 driverClassName = "com.mysql.jdbc.Driver"
 		 factor = " org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
 		 
-		 maxTotal = "100"
-		 maxIdle = "10"
+		 maxTotal = "100000"
+		 maxIdle = "100"
 		 maxWaitMillis = "-1" />
 </Context>
