@@ -51,7 +51,7 @@ private static DogDaoImpl dao = DogDaoImpl.getInstance();
 	public void test01InsertDog() {
 		System.out.println("test01InsertDog()");
 		Dog dog = new Dog(
-				"푸들3",1000,"pu.jpg","프랑스",1,20,"털 많다");
+				"푸들4",1000,"pu.jpg","프랑스",1,20,"털 많다");
 		int res = dao.insertDog(dog);
 		Assert.assertEquals(1, res);
 	}

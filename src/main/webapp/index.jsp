@@ -10,5 +10,6 @@
 <body>
 Hi~~~
 <%=JndiDs.getConnection() %>
+<a href="dogList.do">목록보기</a><br>
 </body>
 </html>
