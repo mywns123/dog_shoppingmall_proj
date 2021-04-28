@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#listForm{
+	width: 640px;	
+	border: 1px solid red;
+	margin: auto; 
+ }
+ 
+ h2{
+	text-align: center;
+}
+
+img{
+	width: 280px;
+	height: 280px;
+	border: none;
+	}
+#content_main{
+	height: 300px;
+}
+
+#content_left{
+	width: 300px;
+	float: left;
+}
+
+#content_right{
+	width: 340px;
+	float: left;
+}
+
+#commandList{
+	text-align: center;
+}
+#desc{
+	height: 170px;
+	background: skyblue;
+}

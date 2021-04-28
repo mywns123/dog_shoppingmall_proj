@@ -6,48 +6,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
-#listForm{
-	width: 700px;
-	height: 500px;
-	border: 1px solid red;
-	margin: auto;
-}
-
-h2{
-	text-align: center;
-}
-
-table{
-	argin: auto;
-	width: 550px;
-}
-
-.div_empty{
-	background-color: red;azimuth: 
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-
-#todayImageList{
-	text-align: center;
-}
-
-#productImage{
-	width: 150px;
-	height: 150px;
-	border: none;
-}
-
-#todayImage{
-	width: 100px;
-	height: 100px;
-	border: none;
-}
-
-
-</style>
+<link rel="stylesheet"
+	href="<%=request.getContextPath() %>/css/dogList.css">
 </head>
 <body>
 	<section id="listForm">

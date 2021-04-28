@@ -17,6 +17,24 @@
 				"auth-model": "native",
 				"handlers": {}
 			}
+		},
+		"mysql5-1790bc15f2e-ebb72c76cf6daac": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "shoppingmall",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "shoppingmall",
+				"url": "jdbc:mysql://localhost:3306/shoppingmall",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
 		}
 	},
 	"connection-types": {
