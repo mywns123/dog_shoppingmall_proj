@@ -35,12 +35,12 @@
 		개 상품이 없습니다. 분양불가
 		</div>	
 	</c:if>
-	<c:if test="${todayImageList eq null}">
+	<c:if test="${todayImageList ne null}">
 		<div class="todayImageList">
 		<h2>오늘 본 개 상품 목록</h2>
 		<table>
 			<tr>
-			<c:forEach var="todayImage" items="${todayImageList} " varStatus="status">
+			<c:forEach var="todayImage" items="${todayImageList}" varStatus="status">
 			<td>
 				<img src="../images/${todayImage}" id="todayImage"/>
 			</td>

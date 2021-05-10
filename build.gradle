@@ -31,4 +31,11 @@ dependencies {
 	implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.3'
 	
     testImplementation 'junit:junit:4.13'
+    
+    //첨부 파일 처리및 mail처리
+	implementation group: 'servlets.com', name: 'cos', version: '05Nov2002'
+	implementation group: 'javax.media', name: 'jai-core', version: '1.1.3'
+	implementation group: 'com.sun', name: 'jai_codec', version: '1.1.3'
+	implementation group: 'com.sun.mail', name: 'javax.mail', version: '1.6.2'
+	implementation group: 'javax.activation', name: 'activation', version: '1.1.1'
 }
