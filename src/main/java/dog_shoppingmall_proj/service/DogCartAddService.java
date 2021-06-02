@@ -25,6 +25,7 @@ public class DogCartAddService {
 	
 	public void addCart(HttpServletRequest request , Dog cartDog) {
 		HttpSession session = request.getSession();
+		@SuppressWarnings("unchecked")
 		ArrayList<Cart> cartList = (ArrayList<Cart>) session.getAttribute("cartList");
 			
 		if(cartList == null) {

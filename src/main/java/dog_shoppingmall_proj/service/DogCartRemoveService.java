@@ -20,6 +20,7 @@ public class DogCartRemoveService {
 	
 	public void cartRemove(HttpServletRequest request, String[] kindArray) {
 		HttpSession session = request.getSession();
+		@SuppressWarnings("unchecked")
 		ArrayList<Cart> cartList = (ArrayList<Cart>) session.getAttribute("cartList");
 		for(String kind : kindArray) {			
 			for(Cart cart : cartList) {				

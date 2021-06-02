@@ -20,6 +20,7 @@ public class DogCartQtyDownService {
 	
 	public void downCartQty(String kind, HttpServletRequest request) {
 		HttpSession session = request.getSession();
+		@SuppressWarnings("unchecked")
 		ArrayList<Cart> cartList = (ArrayList<Cart>) session.getAttribute("cartList");
 				
 		for(Cart cart : cartList) {

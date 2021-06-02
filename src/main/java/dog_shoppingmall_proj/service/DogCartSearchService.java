@@ -20,6 +20,7 @@ public class DogCartSearchService {
 	
 	public ArrayList<Cart> getCartSearchList(int start_money, int end_money, HttpServletRequest request) {
 		HttpSession session = request.getSession();
+		@SuppressWarnings("unchecked")
 		ArrayList<Cart> oldCartList = (ArrayList<Cart>) session.getAttribute("cartList");
 		ArrayList<Cart> cartList = new ArrayList<Cart>();
 		
